@@ -29,10 +29,10 @@ const Words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 5, suffix: "+", label: "Freelancing Projects" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 10, suffix: "+", label: "Certification Courses" },
 ];
 
 const logoIconsList = [
@@ -68,6 +68,12 @@ const logoIconsList = [
   },
   {
     imgPath: "/images/logos/company-logo-11.png",
+  },
+    {
+    imgPath: "/images/logos/company-logo-12.png",
+  },
+    {
+    imgPath: "/images/logos/company-logo-13.png",
   },
 ];
 
@@ -147,15 +153,15 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review: "At HOODS HUB, I collaborated closely with cross-functional teams to deliver scalable, high-performance web applications. As a Full Stack Developer, I played a key role in bridging frontend and backend systems, optimizing data flow, and ensuring seamless user experiences. My work spanned from crafting dynamic UIs to deploying microservices on AWS, contributing to the company’s agile development cycle and product reliability.",
+    imgPath: "/images/exp1.jpg",
+    logoPath: "/images/hoodshub_logo.png",
+    title: "Full Stack Developer",
+    date: "October 2024 - April 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+       "Developed dynamic, type-safe interfaces using React.js with TypeScript, integrating backend data via TanStack Query and managing global state using Zustand.",
+      "Built scalable REST APIs with Node.js and Express.js, and structured relational data using PostgreSQL with Sequelize ORM for efficient querying and associations.",
+      "Deployed modular services on AWS, implementing CI/CD pipelines and containerized architecture to support microservice scalability and reliability.",
     ],
   },
   {
@@ -165,9 +171,9 @@ const expCards = [
     title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed dynamic, type-safe interfaces using React.js with TypeScript, integrating backend data via TanStack Query and managing global state using Zustand.",
+      "Built scalable REST APIs with Node.js and Express.js, and structured relational data using PostgreSQL with Sequelize ORM for efficient querying and associations.",
+      "Deployed modular services on AWS, implementing CI/CD pipelines and containerized architecture to support microservice scalability and reliability.",
     ],
   },
   {

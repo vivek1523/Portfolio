@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
@@ -17,8 +17,9 @@ const Navbar = () => {
   return (
     <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
      <div className='inner'>
-      <a className='logo' href='#hero'>
-       Vivek's Portfolio
+      <a className='logo text-3xl flex flex-row gap-2' href='#vivek'>
+      <img src='/VIVEK.png' height={12} width={110} alt='Vivek Logo'/>
+      {/* <p className='mt-3'>𝓥𝓲𝓿𝓮𝓴</p> */}
       </a>
       
       <nav className='desktop'>
